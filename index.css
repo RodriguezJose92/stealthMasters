@@ -15,12 +15,14 @@
 
 .btnMudi3D {
     width: 80px;
-    height: 80px;
-    position: relative;
+    /* height: 123px; */
+    top: 22%;
+    position: fixed;
+    left: 56%;
     cursor: pointer;
     transition: all .2s ease-in-out;
     filter: drop-shadow(0px 0px 5px rgba(10, 10, 10, 0.196));
-
+}
 }
 
 .btnMudi3D:hover {
