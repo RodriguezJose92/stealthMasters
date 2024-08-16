@@ -248,7 +248,7 @@ class MudiExperience{
         const 
         tooltip = document.createElement('P');
         tooltip.classList.add('tooltipMudi');
-        tooltip.innerHTML=`<b>¡Nuevo!</b> Descubre como se ve este producto en 3D y realidad aumentada en tu espacio`;
+        tooltip.innerHTML=`<b>New!</b> Discover how this product looks in 3D and augmented reality in your space`;
   
         setTimeout(()=>{
             document.body.querySelector('.tooltipMudi').remove();
