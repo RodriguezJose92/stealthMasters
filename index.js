@@ -148,7 +148,7 @@ class MudiExperience{
                         <path class="cls-3_modal" d="m83.42,69.66c.21,0,.42-.06.6-.16l6.97-4.02c.51-.42.57-1.18.15-1.68-.33-.39-.87-.53-1.35-.34l-6.95,4.02c-.58.32-.79,1.05-.47,1.62.21.39.62.62,1.06.62"/>
                         <path class="cls-3_modal" d="m90.39,65.58c.66.01,1.2-.52,1.21-1.18,0-.44-.23-.85-.62-1.06l-6.94-4.02c-.57-.33-1.31-.14-1.64.44-.33.57-.14,1.31.44,1.64l6.94,4.07c.18.1.39.16.6.16"/>
                 
-                        <text class="cls-2_modal" transform="translate(103.37 58.47)"><tspan x="0" y="0">VER EN TU ESPACIO</tspan></text>
+                        <text class="cls-2_modal" transform="translate(103.37 58.47)"><tspan x="0" y="0">SEE IN YOUR SPACE</tspan></text>
                     </svg>
   
                     <div id="containerQR" class="containerQRMudi" style="background-color:${this.color}">
@@ -156,7 +156,7 @@ class MudiExperience{
   
                         <div class="containerText">
                             <div class="titleContainer">
-                                <h4>ESCANÉAME PARA <br><b>SEE IN YOUR SPACE</b></h4>
+                                <h4>SCAN ME FOR <br><b> SEE IN YOUR SPACE</b></h4>
                                 <hr class="hrTitle">
                             </div>
   
