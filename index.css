@@ -8,8 +8,8 @@
     position: absolute;
     width: max-content;
     height: max-content;
-    right: 10%;
-    top: 9%;
+    right: 15%;
+    top: 15%;
     z-index: 10;
 }
 
@@ -42,8 +42,8 @@
     border-radius: 4px;
     text-align: center;
     position: fixed;
-    top: 18%;
-    right: 39%;
+    top: 19%;
+    right: 60%;
     filter: drop-shadow(3px 5px 5px rgba(10, 10, 10, 0.196));
     color: white;
 }
