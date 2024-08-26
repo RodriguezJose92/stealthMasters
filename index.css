@@ -8,8 +8,8 @@
     position: absolute;
     width: max-content;
     height: max-content;
-    right: 15%;
-    top: 15%;
+    right: 16%;
+    top: 16%;
     z-index: 10;
 }
 
@@ -42,11 +42,14 @@
     border-radius: 4px;
     text-align: center;
     position: fixed;
-    top: 19%;
+    top: 20%;
     right: 60%;
     filter: drop-shadow(3px 5px 5px rgba(10, 10, 10, 0.196));
     color: white;
 }
+
+
+
 
 .tooltipMudi::after {
     content: "_";
@@ -241,4 +244,33 @@
         transition: all .2s ease-in-out;
         transform: scale(.8);
     }
+}
+
+@media screen and (max-width:500px) {
+
+.btnsMudiContainer {
+    position: absolute;
+    width: max-content;
+    height: max-content;
+    right: 16%;
+    top: 16%;
+    z-index: 10;
+}
+
+
+  .containerQRMudi {
+    position: absolute;
+    top: 110%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100px;
+    right: -150%;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    transition: all .2s ease-in-out;
+}
+
 }
