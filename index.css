@@ -8,9 +8,9 @@
     position: absolute;
     width: max-content;
     height: max-content;
-    right: 16%;
-    top: 16%;
-    z-index: 10;
+    right: 46%;
+    top: 5%;
+    z-index: 2;
 }
 
 
@@ -248,14 +248,14 @@
 
 @media screen and (max-width:500px) {
 
-.btnsMudiContainer {
-    position: absolute;
-    width: max-content;
-    height: max-content;
-    right: 16%;
-    top: 16%;
-    z-index: 10;
-}
+    .btnsMudiContainer {
+        position: absolute;
+        width: max-content;
+        height: max-content;
+        right: 22%;
+        top: 16%;
+        z-index: 10;
+    }
 
 
   .containerQRMudi {
@@ -271,6 +271,21 @@
     border-radius: 10px;
     color: white;
     transition: all .2s ease-in-out;
+}
+
+    .tooltipMudi {
+    background-color: #c2bbb0;
+    font-family: sans-serif;
+    width: 298px;
+    font-size: 13px;
+    padding: 13px 13px;
+    border-radius: 19px;
+    text-align: center;
+    position: fixed;
+    top: 18%;
+    right: 26%;
+    filter: drop-shadow(3px 5px 5px rgba(10, 10, 10, 0.196));
+    color: white;
 }
 
 }
