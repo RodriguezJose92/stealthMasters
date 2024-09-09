@@ -51,16 +51,7 @@
 
 
 
-.tooltipMudi::after {
-    content: "_";
-    position: absolute;
-    bottom: -15%;
-    right: 10%;
-    width: 10px;
-    border-bottom-right-radius: 50px;
-    background-color: #c2bbb0;
-    color: transparent;
-}
+
 
 /* estilos del modal */
 
@@ -255,6 +246,7 @@
         right: 22%;
         top: 16%;
         z-index: 10;
+        scale: 0.9;
     }
 
 
@@ -282,7 +274,7 @@
     border-radius: 19px;
     text-align: center;
     position: fixed;
-    top: 18%;
+    top: 16%;
     right: 26%;
     filter: drop-shadow(3px 5px 5px rgba(10, 10, 10, 0.196));
     color: white;
