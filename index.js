@@ -321,5 +321,5 @@ class MudiExperience{
 const mudiExperience = new MudiExperience();
 
 setTimeout(()=>{
-    mudiExperience.experienceOn( document.body.querySelector('.mudiSKU').innerHTML.trim() , document.body.querySelector('.product__media') )
+    mudiExperience.experienceOn( document.body.querySelector('.mudiSKU').innerHTML.trim() , document.body.querySelector('.product__gallery') )
 },3000)
